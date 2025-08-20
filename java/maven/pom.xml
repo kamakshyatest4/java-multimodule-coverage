@@ -25,8 +25,8 @@
 
     <!-- Compiler -->
     <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
-    <maven.compiler.source>17</maven.compiler.source>
-    <maven.compiler.target>17</maven.compiler.target>
+    <maven.compiler.source>8</maven.compiler.source>
+    <maven.compiler.target>8</maven.compiler.target>
 
     <!-- JUnit -->
     <junit.jupiter.version>5.0.3</junit.jupiter.version>
