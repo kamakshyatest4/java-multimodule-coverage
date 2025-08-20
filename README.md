@@ -1,0 +1,1 @@
+# java-multimodule-coverage
