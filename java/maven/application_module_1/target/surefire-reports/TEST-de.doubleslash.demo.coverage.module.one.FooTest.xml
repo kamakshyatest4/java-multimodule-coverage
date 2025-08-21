@@ -38,10 +38,9 @@
     <property name="java.specification.version" value="17"/>
     <property name="user.name" value="kamakshyaprasadkar"/>
     <property name="java.class.path" value="/Users/kamakshyaprasadkar/Downloads/apache-maven-3.9.8/boot/plexus-classworlds-2.8.0.jar"/>
-    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="debug"/>
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install -X"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
     <property name="java.home" value="/opt/homebrew/Cellar/openjdk@17/17.0.14/libexec/openjdk.jdk/Contents/Home"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -62,5 +61,5 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="testFooMethod" classname="de.doubleslash.demo.coverage.module.one.FooTest" time="0.004"/>
+  <testcase name="testFooMethod" classname="de.doubleslash.demo.coverage.module.one.FooTest" time="0.003"/>
 </testsuite>
