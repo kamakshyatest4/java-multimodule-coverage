@@ -44,7 +44,7 @@
                         <configuration>
                             <rules>
                                 <requireJavaVersion>
-                                    <version>[1.8,1.9)</version>
+                                    <version>1.8.0_412</version>
                                     <message>Build requires Java 8 only!</message>
                                 </requireJavaVersion>
                             </rules>
