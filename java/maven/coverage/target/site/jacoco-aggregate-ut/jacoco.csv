@@ -1,4 +1,0 @@
-GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-Maven Multimodule Coverage Demo: Coverage of Unit Tests/application_module_1,de.doubleslash.demo.coverage.module.one,Foo,21,12,2,0,4,4,2,2,1,2
-Maven Multimodule Coverage Demo: Coverage of Unit Tests/application_module_2,de.doubleslash.demo.coverage.module.two,Bar,18,27,1,1,3,6,3,2,2,2
-Maven Multimodule Coverage Demo: Coverage of Unit Tests/application_module_3,de.doubleslash.demo.coverage.module.three,Baz,12,12,0,0,1,4,1,2,1,2
