@@ -47,11 +47,13 @@
       <version>1.9</version>
     </dependency>
     
+    <!-- Commented out due to Endor Labs scanner conflict
     <dependency>
       <groupId>com.endor</groupId>
       <artifactId>nexus-java-package</artifactId>
       <version>11.1</version>
     </dependency> 
+    -->
 
   </dependencies>
 
