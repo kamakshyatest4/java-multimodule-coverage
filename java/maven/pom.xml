@@ -21,8 +21,10 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <junit.jupiter.version>5.0.3</junit.jupiter.version>
     <junit.platform.version>1.0.3</junit.platform.version>
+    
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
+    <java.version>1.8</java.version>
   </properties>
 
   <dependencies>
@@ -47,13 +49,12 @@
       <version>1.9</version>
     </dependency>
     
-    <!-- Commented out due to Endor Labs scanner conflict
     <dependency>
       <groupId>com.endor</groupId>
       <artifactId>nexus-java-package</artifactId>
       <version>11.1</version>
     </dependency> 
-    -->
+   
 
   </dependencies>
 
@@ -97,12 +98,13 @@
               <goal>enforce</goal>
             </goals>
             <configuration>
-              <rules>
-                <requireJavaVersion>
-                  <version>[1.8,)</version>
-                  <message>Java 8 or higher is required. Current version: ${java.version}</message>
-                </requireJavaVersion>
-              </rules>
+                  <rules>
+                      <requireJavaVersion>
+                          <version>1.8.0_411</version>
+                          <message>Build requires Java 8.0.411 only!</message>
+                      </requireJavaVersion>
+                  </rules>
+                  <fail>true</fail>
             </configuration>
           </execution>
         </executions>
