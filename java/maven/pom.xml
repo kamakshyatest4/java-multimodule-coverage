@@ -100,8 +100,8 @@
             <configuration>
                   <rules>
                       <requireJavaVersion>
-                          <version>1.8.0_411</version>
-                          <message>Build requires Java 8.0.411 only!</message>
+                          <version>1.8.0_412</version>
+                          <message>Build requires Java 8.0.412 only!</message>
                       </requireJavaVersion>
                   </rules>
                   <fail>true</fail>
