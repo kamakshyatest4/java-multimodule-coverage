@@ -31,6 +31,12 @@
     <!-- JUnit -->
     <junit.jupiter.version>5.0.3</junit.jupiter.version>
     <junit.platform.version>1.0.3</junit.platform.version>
+
+    <!-- Compiler -->
+    <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    
   </properties>
 
   <dependencies>
