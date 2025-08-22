@@ -101,7 +101,7 @@
                   <rules>
                   <requireProperty>
                     <property>java.version</property>
-                    <regex>^1\.8\..*</regex>
+                    <regex>^(1\.8\..*|8)$</regex>
                     <message>Build requires Java 8 only!</message>
                   </requireProperty>
                 </rules>
