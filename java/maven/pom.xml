@@ -97,13 +97,14 @@
             <goals>
               <goal>enforce</goal>
             </goals>
-            <configuration>
+            <configuration>           
                   <rules>
-                      <requireJavaVersion>
-                          <version>8</version>
-                          <message>Build requires Java 8 only!</message>
-                      </requireJavaVersion>
-                  </rules>
+                  <requireProperty>
+                    <property>java.version</property>
+                    <regex>^1\.8\..*</regex>
+                    <message>Build requires Java 8 only!</message>
+                  </requireProperty>
+                </rules>
                   <fail>true</fail>
             </configuration>
           </execution>
